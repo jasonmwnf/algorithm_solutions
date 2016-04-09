@@ -1,0 +1,13 @@
+function repeatStringNumTimes(str, num) {
+  
+  var jstr = "";
+  if (num < 0) {
+    return "";
+  }
+  else {
+    for (var i = 0; i < num; i ++) {
+    jstr = jstr.concat(str);
+    }
+  }
+  return jstr;
+}
